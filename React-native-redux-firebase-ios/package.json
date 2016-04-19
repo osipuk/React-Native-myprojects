@@ -1,0 +1,48 @@
+{
+  "name": "guestar",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint App",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react-native": "^0.22.0",
+    "react-native-facebook-login": "^1.0.3",
+    "react-native-google-places-autocomplete": "^1.1.3",
+    "react-native-image-picker": "^0.18.3",
+    "react-native-tableview-simple": "^0.7.3",
+    "react-native-vector-icons": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3",
+    "events": "^1.0.2",
+    "file-loader": "^0.8.5",
+    "flux": "^2.1.1",
+    "history": "^1.12.5",
+    "jest-cli": "^0.8.2",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1",
+    "re-base": "^1.5.0",
+    "source-map": "^0.5.1",
+    "url-loader": "^0.5.7"
+  },
+  "jest": {
+    "scriptPreprocessor": "node_modules/react-native/jestSupport/preprocessor.js",
+    "setupEnvScriptFile": "node_modules/react-native/jestSupport/env.js",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "packager/react-packager/src/Activity/"
+    ],
+    "testFileExtensions": [
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "promise",
+      "source-map"
+    ]
+  }
+}
