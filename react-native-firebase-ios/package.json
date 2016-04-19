@@ -1,0 +1,25 @@
+{
+  "name": "react-native-firebase",
+  "version": "0.0.2",
+  "description": "A react-native module that wraps the native firebase iOS SDK",
+  "main": "RNFirebase.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "firebase"
+  ],
+  "author": "alonso holmes <hello@alonso.io>",
+  "license": "MIT",
+  "dependencies": {
+    "console-shim": "^1.0.3",
+    "firebase": "^2.3.1",
+    "lodash": "^3.10.1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.11.4"
+  }
+}
